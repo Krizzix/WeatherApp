@@ -1,5 +1,6 @@
 # Getting Started with Create React App
-
+URL_DEPLOYED_VERCELL
+https://weather-app-psi-inky.vercel.app/
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
