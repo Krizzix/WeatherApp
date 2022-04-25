@@ -1,0 +1,30 @@
+.container {
+    max-width: 400px;
+    height: 100vh;
+    margin: 0px auto;
+    font-family: 'Lato', sans-serif;
+    background: linear-gradient(to right, #009fff, #ec2f4b);
+    padding: 20px 30px;
+    color: #eee;
+
+    font-weight: 600;
+
+
+}
+
+.container.Rain {
+    background: linear-gradient(to right, #00f260, #0575e6);
+}
+
+.container.Clear {
+    background: linear-gradient(to right, #ec008c, #fc6767);
+}
+
+
+.container.Clouds {
+    background: linear-gradient(to right, #4776e6, #8e54e9);
+}
+
+.container.Snow {
+    background: linear-gradient(to right, #1488cc, #2b32b2);
+}
