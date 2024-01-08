@@ -40,7 +40,7 @@ export default function GetCurrentWeather() {
       'Thứ bảy',
     ];
     setDay(days[d.getDay()]);
-    const dateConvert = `${d.getDate()}/${d.getMonth()}/${d.getFullYear()}`;
+    const dateConvert = `${d.getDate()}/${d.getMonth() + 1}/${d.getFullYear()}`;
     setDate(dateConvert);
   }, [timezone]);
   if (isError) {
